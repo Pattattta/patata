@@ -1,0 +1,62 @@
+
+header{
+  background-color: rgb(198, 220, 235);
+  display: flex;
+  position: sticky;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  height: 80px;
+}
+
+.container{
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+.text{
+  padding-left: 1rem;
+  /* font-size: 1.7em;  */
+}
+
+.fa-laptop{
+  color: rgb(26, 115, 174);
+}
+
+.list {
+  height: 100%;
+}
+
+.menu{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: stretch;
+  background-color: rgb(198, 220, 235);
+  height: 100%;
+}
+
+.menu_item{
+  /* border-left: 1px solid rgb(222, 236, 246); */
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  cursor: pointer;
+  font-size: 0.5em;
+}
+
+.menu_item:last-child{
+  /* border-right: 1px solid rgb(222, 236, 246); */
+}
+
+.menu_item:hover{
+  color: rgb(26, 115, 174);
+}
+

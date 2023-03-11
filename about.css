@@ -1,0 +1,93 @@
+
+
+.myself{
+ flex:1;
+ line-height: 1.8;
+}
+
+
+.about_img {
+  width: 300px;
+  height: 500px;
+  flex:1
+}
+
+.turn {
+  width: 100%;
+  height: 100%;
+}
+
+.subtitle{ 
+  color: rgb(114, 129, 142);
+  font-size: 45px;
+  font-family: 'Poppins', sans-serif;
+  border-bottom: 1px solid rgb(114, 129, 142) ;
+  width: 300px;
+}
+
+.section{
+  padding-top: 80px;
+}
+
+.description-first {
+  display: flex;
+  padding-top: 2rem;
+  height: 500px;
+  gap: 48px;
+  align-items: center;
+}
+
+.description-second{
+  padding-top: 2rem;
+}
+.card {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* overflow: hidden; */
+  padding-bottom: 5px;
+  /* align-items: center; */
+}
+.biography{
+  /* display: flex;
+  flex-direction: column; */
+  width: 100%;
+  height: 200px;
+}
+
+.biography-img{
+  width: 100%;
+  height: 100%;  
+}
+
+.card-text {
+width: 100%;
+max-height: 100%;
+}
+
+.card-text-close{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#more-btn{
+ width: 60px;
+ background-color: rgb(198, 220, 235);
+ border: 1px solid rgb(167, 202, 225);;
+
+}
+/* .card-text-button{
+  appearance: none;
+  border: 1px solid black;
+  padding: 0.8px;
+  border-radius: 0.25em;
+  cursor: pointer;
+  width: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+} */
