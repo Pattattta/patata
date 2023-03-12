@@ -5,4 +5,5 @@
 .about_img{height: 300px;}
 .description-second{flex-direction: column; gap: 32px; align-items: center;}
 .myself{width: 300px;}
-.subtitle{}}
+.home{display: none;}}
+.text{padding-left: 0;}
