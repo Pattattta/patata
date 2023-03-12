@@ -3,6 +3,11 @@
 @import url(./reset.css);
 @import url('./header.css');
 @import url('./about.css');
+@import url(./media.css);
+
+*{
+    box-sizing: border-box;
+}
 
 html{
     /* font-family: 'Poppins', sans-serif; */

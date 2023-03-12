@@ -3,7 +3,7 @@ header{
   background-color: rgb(198, 220, 235);
   display: flex;
   position: sticky;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 2em;
   height: 80px;
   top:0;
@@ -17,17 +17,26 @@ header{
   justify-content: space-between;
 }
 
-.logo{
-  display: flex;
-  align-items: center;
-}
-.text{
-  padding-left: 1rem;
-  /* font-size: 1.7em;  */
+.home{
+  display: inline-block;
+  width: auto;
+  text-decoration: none;
 }
 
-.fa-laptop{
+.logo{
+  display: flex;
+  align-items:center;
+ 
+}
+
+.bx-lock-open-alt {
   color: rgb(26, 115, 174);
+  font-size: 32px;
+
+}
+
+.text{
+  padding-left: 1rem;
 }
 
 .list {
@@ -45,17 +54,15 @@ header{
 }
 
 .menu_item{
-  /* border-left: 1px solid rgb(222, 236, 246); */
   display: flex;
   align-items: center;
   padding: 0 16px;
   cursor: pointer;
   font-size: 0.5em;
+  text-decoration: none;
+  color: black;
 }
 
-.menu_item:last-child{
-  /* border-right: 1px solid rgb(222, 236, 246); */
-}
 
 .menu_item:hover{
   color: rgb(26, 115, 174);

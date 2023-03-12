@@ -12,7 +12,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Open+Sans&family=Playfair+Display&family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
     <script src="./button.js" defer></script>
@@ -22,27 +26,31 @@
     <header>
       <div class="container contents-width">
         <div class="logo">
-          <a href="./index.html" class="home"><i class="fas fa-laptop"></i></a>
+          <a href="./index.html" class="home"
+            ><i class="bx bx-lock-open-alt"></i
+          ></a>
           <span class="text"> PATATA</span>
         </div>
         <nav class="list">
           <ul class="menu">
-            <li class="menu_item">WHO</li>
-            <li class="menu_item">WHY</li>
+            <a href="#target1" class="menu_item">WHO</a>
+            <a href="#target2" class="menu_item">WHY</a>
+            <a href="#target3" class="menu_item">WHAT</a>
+            <a href="#target4" class="menu_item">CONTACT</a>
+            <!-- <li class="menu_item">WHY</li>
             <li class="menu_item">WHAT</li>
-            <li class="menu_item">CONTACT</li>
+            <li class="menu_item">CONTACT</li> -->
           </ul>
         </nav>
       </div>
     </header>
     <div style="height: 100%">
-      <section class="section contents-width">
+      <section class="section contents-width" id="target1">
         <div class="subtitle">WHO</div>
         <div class="description-first">
           <div class="about_img">
             <img class="turn" src="./turn_1.jpg" alt="turning" />
           </div>
-
           <p class="myself">
             안녕하세요. 김희연입니다. 저의 2023년 키워드는 전환입니다.<br />지난
             시간 동안 저의 모든 학습은 흰색 종이로부터 시작되었습니다. 그러나
@@ -52,7 +60,7 @@
           </p>
         </div>
       </section>
-      <section class="section contents-width">
+      <section class="section contents-width" id="target2">
         <div class="subtitle">WHY</div>
         <div class="description-second">
           <div class="card">
@@ -64,12 +72,77 @@
               현실과의 괴리감에 좌절하며 2년의 시간을 보내게 되었습니다. 그리고
               이 무렵 프론트엔드라는 직업을 처음으로 알게 되는데...
             </p>
-            <button id="more-btn">더보기</button>
+            <button id="more-btn1">더보기</button>
           </div>
-          <div class="card"></div>
-          <div class="card"></div>
+          <div class="card">
+            <div class="biography">
+              <img src="./think.jpg" class="biography-img" />
+            </div>
+            <p class="card-text1 card-text-close1">
+              소모적으로 업무시간을 보내는 저와 달리 업무시간이 자기개발로
+              이어지는 개발자 친구를 보고 제 진로에 대한 깊은 고민을 하게
+              되었습니다. <br />그러나 그간 쌓아온 모든 것을 버리고 새로운
+              도전을 할 용기가 없었던 저는 도전 대신 동일 직무로 이직을
+              선택하였습니다.
+            </p>
+            <button id="more-btn2">더보기</button>
+          </div>
+          <div class="card">
+            <div class="biography">
+              <img src="./challenges1.jpg" class="biography-img" />
+            </div>
+            <p class="card-text2 card-text-close2">
+              하지만 이직 후에도 고민은 해결되지 않았습니다. 저의 하루 중 가장
+              많은 시간을 보내는 일터가 보다 생산적인 현장이 되었으면 좋겠다는
+              생각을 버릴 수 없었습니다. <br />결국 저는 Developer가 되기로
+              결심하였고 Wecode 부트캠프에 참여하게 되었습니다.
+            </p>
+            <button id="more-btn3">더보기</button>
+          </div>
         </div>
       </section>
+      <section class="section contents-width" id="target3">
+        <div class="subtitle">WHAT</div>
+        <div class="subtitle-text"><p>Learn technology</p></div>
+        <div class="description-third">
+          <i class="bx bxl-html5" id="tech"></i>
+          <i class="bx bxl-css3" id="tech"></i>
+          <i class="bx bxl-javascript" id="tech"></i>
+          <i class="bx bxl-react" id="tech"></i>
+          <i class="bx bxl-typescript" id="tech"></i>
+        </div>
+        <div class="subtitle-text"><p>Learn how to use design tools</p></div>
+        <div class="description-third">
+          <i class="bx bxl-figma" id="tech"></i>
+          <i class="bx bxl-sketch" id="tech"></i>
+        </div>
+      </section>
+      <section class="section contents-width">
+        <div class="subtitle">CONTACT</div>
+        <div class="contact">
+          <input
+            class="contact-item"
+            type="text"
+            placeholder="Enter your Name"
+          />
+          <input
+            class="contact-item"
+            type="text"
+            placeholder="Enter a valid email address"
+          />
+          <input
+            class="contact-message"
+            type="text"
+            placeholder="Enter your message"
+          />
+          <input class="contact-submit" type="submit" placeholder="Submit" />
+        </div>
+      </section>
+      <footer class="contents-width" id="target4">
+        <div class="footer-container">
+          <span class="copyright">© 2023 PATATA All right reserved.</span>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

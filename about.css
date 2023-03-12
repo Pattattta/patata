@@ -8,7 +8,7 @@
 
 .about_img {
   width: 300px;
-  height: 500px;
+  height: 100%;
   flex:1
 }
 
@@ -19,14 +19,18 @@
 
 .subtitle{ 
   color: rgb(114, 129, 142);
-  font-size: 45px;
-  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  font-family: 'Playfair Display', serif;
   border-bottom: 1px solid rgb(114, 129, 142) ;
   width: 300px;
+
 }
 
 .section{
-  padding-top: 80px;
+  padding-top: 160px;
+}
+.section:first-child{
+  padding-top: 120px
 }
 
 .description-first {
@@ -35,31 +39,33 @@
   height: 500px;
   gap: 48px;
   align-items: center;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .description-second{
   padding-top: 2rem;
+  display: flex;
+  gap: 48px;
+  width: 100%;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 .card {
   width: 300px;
-  height: 300px;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  /* overflow: hidden; */
-  padding-bottom: 5px;
-  /* align-items: center; */
+  gap: 8px;
 }
+
 .biography{
-  /* display: flex;
-  flex-direction: column; */
   width: 100%;
   height: 200px;
 }
 
 .biography-img{
   width: 100%;
-  height: 100%;  
+  height: 100%; 
+  object-fit: cover; 
 }
 
 .card-text {
@@ -74,20 +80,119 @@ max-height: 100%;
   overflow: hidden;
 }
 
-#more-btn{
- width: 60px;
- background-color: rgb(198, 220, 235);
- border: 1px solid rgb(167, 202, 225);;
-
+#more-btn1{
+ width: 56px;
+ background-color: rgb(167, 202, 225);
+ border: 0;
+ max-height: 100%;
+ border-radius: 4px;
+ padding:2px 0;
+ color: white;
 }
-/* .card-text-button{
-  appearance: none;
-  border: 1px solid black;
-  padding: 0.8px;
-  border-radius: 0.25em;
-  cursor: pointer;
-  width: 40px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-} */
+
+.card-text1 {
+  width: 100%;
+  max-height: 100%;
+  }
+  
+  .card-text-close1{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+
+#more-btn2{
+  width: 56px;
+  background-color: rgb(167, 202, 225);
+    border: 0;
+  max-height: 100%;
+  border-radius: 4px;
+  padding:2px 0;
+  color: white;
+ }
+ 
+ .card-text2 {
+  width: 100%;
+  max-height: 100%;
+  }
+  
+  .card-text-close2{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  #more-btn3{
+    width: 56px;
+    background-color: rgb(167, 202, 225);
+    border: 0;
+    max-height: 100%;
+    border-radius: 4px;
+    padding:2px 0;
+    color: white;
+   }
+   
+  #tech{
+    font-size: 160px;
+    color: rgb(167, 202, 225);
+  }
+  
+  .description-third{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-top: 16px;
+  }
+
+  .subtitle-text{
+    padding-top: 32px;
+    font-size: 32px;
+    color: rgb(114, 129, 142);
+    font-family: 'Playfair Display', serif;
+  }
+
+  .contact{
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   padding-top: 24px;
+  }
+
+  .contact-item{
+    width: 320px;
+    height: 32px;
+    border: 0;
+    padding-left: 8px;
+    border-radius: 4px;
+    font-family: 'Playfair Display', serif;
+  }
+  .contact-message{
+    width: 320px;
+    height: 64px;
+    border: 0;
+    padding-left: 8px;
+    border-radius: 4px;
+    font-family: 'Playfair Display', serif;
+  }
+  .contact-submit{
+    width: 56px;
+    margin-bottom: 60px;
+    border: 0;
+    background-color: rgb(167, 202, 225);
+    color: white;
+    border-radius: 4px;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .footer-container{
+    height: 72px;
+    border-top: 1px solid rgb(114, 129, 142) ;
+    color: rgb(114, 129, 142) ;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    padding-top: 12px;
+  }
